@@ -35,7 +35,7 @@ end
 
 group :production do
 	# Set up Heroku environment; PostgreSQL install
-	gem "pg", ">= 0.17.1"
+	gem "pg", "0.17.1"
 	gem "rails_12factor", ">= 0.0.2"
 end
 

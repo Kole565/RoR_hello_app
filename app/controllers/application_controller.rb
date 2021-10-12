@@ -5,7 +5,11 @@ class ApplicationController < ActionController::Base
 	end
 
 	def hello_special
-		render plain: "¡Hola, Mundo!" # Exercuse 1.7 RoR book
+		render plain: "¡Hola, Mundo!" # Exercuse 1.7.1
+	end
+
+	def goodbye
+		render plain: "goodbye, world!" # Exercuse 1.7.1
 	end
 
 end
